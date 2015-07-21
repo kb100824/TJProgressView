@@ -14,6 +14,7 @@
 		2D8A540A1B5D2D8F00CB9C95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8A54091B5D2D8F00CB9C95 /* Images.xcassets */; };
 		2D8A540D1B5D2D8F00CB9C95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D8A540B1B5D2D8F00CB9C95 /* LaunchScreen.xib */; };
 		2D8A54191B5D2D8F00CB9C95 /* TJProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A54181B5D2D8F00CB9C95 /* TJProgressViewTests.m */; };
+		2D8A542A1B5D2EC700CB9C95 /* TJProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A54291B5D2EC700CB9C95 /* TJProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2D8A54121B5D2D8F00CB9C95 /* TJProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D8A54171B5D2D8F00CB9C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D8A54181B5D2D8F00CB9C95 /* TJProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJProgressViewTests.m; sourceTree = "<group>"; };
+		2D8A54281B5D2EC700CB9C95 /* TJProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJProgressView.h; sourceTree = "<group>"; };
+		2D8A54291B5D2EC700CB9C95 /* TJProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		2D8A53FB1B5D2D8F00CB9C95 /* TJProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				2D8A54271B5D2E7200CB9C95 /* ProgressView */,
 				2D8A54001B5D2D8F00CB9C95 /* AppDelegate.h */,
 				2D8A54011B5D2D8F00CB9C95 /* AppDelegate.m */,
 				2D8A54031B5D2D8F00CB9C95 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				2D8A54171B5D2D8F00CB9C95 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D8A54271B5D2E7200CB9C95 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				2D8A54281B5D2EC700CB9C95 /* TJProgressView.h */,
+				2D8A54291B5D2EC700CB9C95 /* TJProgressView.m */,
+			);
+			path = ProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D8A54051B5D2D8F00CB9C95 /* ViewController.m in Sources */,
+				2D8A542A1B5D2EC700CB9C95 /* TJProgressView.m in Sources */,
 				2D8A54021B5D2D8F00CB9C95 /* AppDelegate.m in Sources */,
 				2D8A53FF1B5D2D8F00CB9C95 /* main.m in Sources */,
 			);
