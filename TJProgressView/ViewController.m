@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _progressView.progress = 0.67;
+    _progressView.progress = 0.89;
     _progressView.progressColor = [UIColor colorWithRed:0.590 green:0.208 blue:0.041 alpha:1.000];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -29,7 +29,8 @@
 }
 
 - (IBAction)btnClick:(UIButton *)sender {
-    _progressView.progress =0.67;
+   
+    _progressView.progress = 0.89;
 }
 
 @end

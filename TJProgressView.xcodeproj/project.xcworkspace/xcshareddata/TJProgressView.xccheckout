@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C6C43299-9EB0-4325-AAA3-B64727C90854</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TJProgressView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>033CF81E2F3EAF1FC8F51C8CC93FCCCAEC8FE611</key>
+		<string>https://github.com/KBvsMJ/TJProgressView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TJProgressView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>033CF81E2F3EAF1FC8F51C8CC93FCCCAEC8FE611</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KBvsMJ/TJProgressView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>033CF81E2F3EAF1FC8F51C8CC93FCCCAEC8FE611</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>033CF81E2F3EAF1FC8F51C8CC93FCCCAEC8FE611</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TJProgressView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
